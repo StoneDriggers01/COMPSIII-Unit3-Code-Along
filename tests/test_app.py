@@ -25,6 +25,10 @@ def test_can_create_shoppingcart():
 def test_shoppingcart_str():
     cart = ShoppingCart()
     assert str(cart) == "Shopping Cart with 0 items."
+
+def test_shoppingcart_additems_with_str():
+    cart = ShoppingCart()
+    assert str(cart) == "Shopping Cart with 0 items."
     product1 = Product("Widget", 25.00, 12345)
     cart.add_items(product1)
     assert str(cart) == "Shopping Cart with 1 items."
