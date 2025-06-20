@@ -1,4 +1,4 @@
-# COMPS III: Week 2 Code Along
+# COMPS III: Unit 3 Code Along
 
 ## Overview
 
